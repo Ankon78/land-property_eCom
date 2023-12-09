@@ -1,0 +1,68 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+
+.sidebar-card-header{
+    background-color: #201e24;
+    color: white;
+}
+
+
+.sidebar-card-body{
+    background-color: #322c3d;
+}
+
+
+.sidebar-menu
+{
+    list-style: none;
+    margin-bottom: 3px;
+    padding: 0;
+        li{
+
+            display: inline-block;
+            padding: 5px;
+            width: 100%;
+
+            a{
+                text-decoration: none;
+                display: inline-block;
+                width: 100%;
+                padding: 10px;
+                border: none;
+                border-radius: 10px;
+                color: white;
+                font-size: 14px;
+                background: #3d334f;
+
+                &:hover{
+                    background: #645d70;
+                    color: white;
+                    font-size: 15px;
+                }
+            }
+        }
+
+
+
+}
+.ui-menu{
+    z-index: 4000 !important;
+    border-radius: 10px;
+}
+.date
+{
+    color:#201e24;
+    text-align: end;
+    margin-top: 0px;
+
+    h4,h5{
+        font-weight: bold;
+    }
+}
